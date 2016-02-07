@@ -15,6 +15,7 @@ elixir(function(mix) {
     mix.sass('app.scss');
     mix.scripts([
         "coverr.js",
-        "verticalCenter.js"
+        "verticalCenter.js",
+        "modernizr-custom.js"
     ]);
 });

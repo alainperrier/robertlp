@@ -11,7 +11,7 @@ use App\Http\Controllers\Controller;
 class HomeController extends Controller
 {
     public function index(){
-    	$videos = ['Tomato-Tomato', 'Go-Goat', 'Goat-With-The-Wind', 'On-the-vine', 'Shakshuka', 'Veggie-Stand'];
+    	$videos = ['Tomato-Tomato', 'Go-Goat', 'Goat-With-The-Wind', 'On-the-vine', 'Shakshuka'];
     	$video = $videos[array_rand($videos)];
     	return view('home')->with('video', $video);
     }
