@@ -16,6 +16,7 @@ elixir(function(mix) {
     mix.scripts([
         "coverr.js",
         "verticalCenter.js",
-        "modernizr-custom.js"
+        "modernizr-custom.js",
+        "modernizr-config.js"
     ]);
 });

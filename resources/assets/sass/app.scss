@@ -87,12 +87,12 @@ html {
     border-left: none;
     position: relative;
 }
-.no-video .video-container video,
-.touch .video-container video {
+.no-video video,
+.touch video {
     display: none;
 }
-.no-video .video-container .poster,
-.touch .video-container .poster {
+.no-video .poster,
+.touch .poster {
     display: block !important;
 }
 .video-container {
