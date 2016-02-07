@@ -88,11 +88,11 @@ html {
     position: relative;
 }
 .no-video video,
-.touch video {
+.touchevents video {
     display: none;
 }
 .no-video .poster,
-.touch .poster {
+.touchevents .poster {
     display: block !important;
 }
 .video-container {
