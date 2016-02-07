@@ -8,10 +8,3 @@ Route::group(['middleware' => ['web']], function () {
 	    'as' => 'store', 'uses' => 'HomeController@store'
 	]);
 });
-
-Route::get('/mail', function(){
-	Mail::send('emails.welcome', ['key' => 'value'], function($message)
-	{
-		$message->to('a.perrier721@gmail.com', 'Alain Perrier')->subject('Welcome!');
-	});
-});

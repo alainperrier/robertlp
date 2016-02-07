@@ -33,6 +33,7 @@
                         @if(Session::has('message'))
                             <div class="notification">{{ Session::get('message') }}</div>
                         @endif
+                        <a href="mailto:contact@chez-robert.fr" class="mailto">contact&#64;chez-robert.fr</a>
                     </div>
 
                     <div class="filter"></div>

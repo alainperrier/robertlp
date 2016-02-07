@@ -45,6 +45,18 @@ html {
     margin-left: 15%;
 }
 
+.mailto{
+    position:relative;
+    top: 10px;
+    color: white;
+    text-decoration: underline;
+}
+
+.mailto:hover, .mailto:active{
+    color: #47cbef;
+    text-decoration: underline;
+}
+
 // For smartphone
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     #email{
