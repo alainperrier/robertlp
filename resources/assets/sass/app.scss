@@ -45,14 +45,25 @@ html {
     margin-left: 15%;
 }
 
-.mailto, .mailto:visited{
+.mailto{
     position:relative;
     top: 10px;
     color: white;
     text-decoration: underline;
 }
 
-.mailto:hover, .mailto:active{
+.mailto:link {
+    color: white;
+    text-decoration: underline;
+}
+.mailto:visited {color: white;
+    text-decoration: underline;
+}
+.mailto:hover {    
+    color: #47cbef;
+    text-decoration: underline;
+}
+.mailto:active {
     color: #47cbef;
     text-decoration: underline;
 }
