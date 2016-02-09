@@ -9,15 +9,44 @@ html {
     font-family: 'Roboto', sans-serif;
 }
 
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Roboto', sans-serif !important;  
+}
+
 * {
     box-sizing: border-box
 }
 
 .container-full {
-  margin: 0 auto;
-  width: 100%;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
 }
 /* END PAGE SETTINGS */
+
+/* 404 SETTINGS */
+
+.greybackground{
+    background: #d6d3cf;
+}
+
+.table{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.content{
+    text-align: center;
+}
+
+.info{
+    font-size: 1.3em;
+    color: #605c56;
+}
+
+/* END 404 SETTINGS */
 
 /* COVERR FOREGROUND */
 
@@ -33,6 +62,14 @@ html {
 
 .margin-fix{
     margin-top: 0px;
+}
+
+.margin-fix-bot{
+    margin-bottom: 0px;
+}
+
+.margin-bot{
+    margin-bottom: 10px;
 }
 
 #email{
@@ -56,7 +93,8 @@ html {
     color: white;
     text-decoration: underline;
 }
-.mailto:visited {color: white;
+.mailto:visited {
+    color: white;
     text-decoration: underline;
 }
 .mailto:hover {    
