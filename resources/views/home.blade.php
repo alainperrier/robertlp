@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>Chez Robert</title>
-        <meta name="description" content="Chez Robert, c'est 4 jeunes entrepreneurs ultra-motivés prêts à révolutionner la France. Ne manquez pas le départ !">
+        <meta name="description" content="Chez Robert, c'est 4 jeunes entrepreneurs, ultra-motivés et prêts à révolutionner les modes de consommation français. Ne manquez pas le départ !">
         <meta name="keywords" content="Chez robert, Robert">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
