@@ -16,6 +16,13 @@ $( document ).ready(function() {
 
 });
 
+$(window).load(function() {
+    scaleVideoContainer();
+    scaleBannerVideoSize('.video-container .poster img');
+    scaleBannerVideoSize('.video-container .filter');
+    scaleBannerVideoSize('.video-container video');
+});
+
 function scaleVideoContainer() {
 
     var height = $(window).height();
