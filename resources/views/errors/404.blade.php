@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>Page non trouvée</title>
-        <meta name="description" content="Chez Robert, c'est 4 jeunes entrepreneurs, ultra-motivés et prêts à révolutionner les modes de consommation français. Ne manquez pas le départ !">
+        <meta name="description" content="La page n'existe pas">
         <meta name="keywords" content="Chez robert, Robert">
         <meta name="robots" content="noindex,nofollow"> 
         <meta name="viewport" content="width=device-width, initial-scale=1">
