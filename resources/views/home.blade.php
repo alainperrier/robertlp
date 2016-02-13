@@ -8,6 +8,8 @@
         <meta name="keywords" content="Chez robert, Robert">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+        <link rel="alternate" href="http://www.chez-robert.fr/" hreflang="fr" >
+        <link rel="alternate" href="http://www.chez-robert.fr/" hreflang="x-default">
         <link rel="icon" href="favicon.ico">
         <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/app.css">
