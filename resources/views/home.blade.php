@@ -20,7 +20,10 @@
             <div class="homepage-hero-module">
                 <div class="video-container">
                     <div class="video-title">
-                        <h1><a href="{{ URL('/') }}" title="Chez Robert"><img id="logo" src="{{ URL::asset('images/logo-robert.png') }}" alt="Chez Robert"></a></h1>
+                        <h1>
+                            <a href="{{ URL('/') }}" title="Chez Robert"><img id="logo" src="{{ URL::asset('images/logo-robert.png') }}" alt="Chez Robert"></a>
+                            <span class="alt-h1">Chez Robert</span>
+                        </h1>
                         <h2 class="margin-fix">Ne manquez pas le départ !</h2>
                         <form class="form-inline" action="/" method="POST">
                             <input type="email" class="form-control" name="email" id="email" placeholder="Votre adresse e-mail">

@@ -21,7 +21,10 @@
         <div class="container-full">
             <div class="table">
             <div class="content">
-                <h1 class="margin-fix-bot"><a href="{{ URL('/') }}" title="Chez Robert"><img id="logo" src="{{ URL::asset('images/logo-robert.png') }}" alt="Chez Robert"></a></h1>
+                 <h1>
+                    <a href="{{ URL('/') }}" title="Chez Robert"><img id="logo" src="{{ URL::asset('images/logo-robert.png') }}" alt="Chez Robert"></a>
+                    <span class="alt-h1">Chez Robert</span>
+                </h1>
                 <h2 class="info margin-fix margin-bot">Vous êtes égaré, cette page n'existe pas</h2>
                 <a href="{{ URL('/') }}"><button class="btn btn-success">C'est pas grave, on y retourne !</button></a>
                 <p><a href="mailto:contact@chez-robert.fr" class="mailto">contact&#64;chez-robert.fr</a></p>
