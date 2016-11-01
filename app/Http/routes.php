@@ -9,7 +9,7 @@ Route::group(['middleware' => ['web']], function () {
 	]);
 
 	Route::get('/contact', function () {
-    	\Mail::send('emails.welcome', [], function ($message){
+    	Mail::send('emails.welcome', [], function ($message){
             $message->from('contact@chez-robert.fr', 'Chez Robert');
             $message->sender('contact@chez-robert.fr', 'Chez Robert');
             $message->to('a.perrier721@gmail.com')->subject("Bienvenue Chez Robert");
