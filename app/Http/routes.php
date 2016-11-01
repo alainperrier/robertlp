@@ -1,5 +1,7 @@
 <?php
 
+use Mail;
+
 Route::group(['middleware' => ['web']], function () {
 	Route::get('/', [
 	    'as' => 'index', 'uses' => 'HomeController@index'
